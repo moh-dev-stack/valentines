@@ -129,7 +129,8 @@ export default function SweetMessage({
         className="flex max-h-[75dvh] flex-col items-center gap-4 overflow-y-auto overscroll-contain px-4 py-2 text-center sm:px-6"
       >
         <p className="font-['Dancing_Script'] text-3xl font-bold text-rose-700 sm:text-4xl md:text-5xl">
-          Yay! You said yes!
+          Yay! You said yes!{" "}
+          <span className="text-xs font-normal text-rose-500 sm:text-sm">(sorry the No button disappears)</span>
         </p>
         <p className="font-['Dancing_Script'] text-xl text-rose-600 sm:text-2xl">
           Happy Valentine&apos;s Day, {recipientName}! 💕
