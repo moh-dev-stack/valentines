@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --font-dancing: "Dancing Script", cursive;
+  --font-romantic: Georgia, "Palatino Linotype", Palatino, "Times New Roman", serif;
+  --font-casual: "Lucida Handwriting", "Brush Script MT", "Apple Chancery", cursive;
+  --font-elegant: "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-note: "Garamond", "Bookman Old Style", "Times New Roman", serif;
 }
 
 /* Mobile-first base styles */

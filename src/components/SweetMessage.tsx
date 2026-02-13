@@ -129,14 +129,14 @@ export default function SweetMessage({
         className="flex max-h-[75dvh] flex-col items-center gap-4 overflow-y-auto overscroll-contain px-4 py-2 text-center sm:px-6"
       >
         <div className="flex flex-col items-center gap-1">
-          <p className="font-['Dancing_Script'] text-3xl font-bold text-rose-700 sm:text-4xl md:text-5xl">
+          <p className="font-romantic text-3xl font-bold text-rose-700 sm:text-4xl md:text-5xl">
             Yay! You said yes!
           </p>
-          <p className="font-['Dancing_Script'] text-base font-normal text-rose-500 sm:text-lg">
+          <p className="font-casual text-base font-normal text-rose-500 sm:text-lg">
             (sorry the No button disappeared 🙈)
           </p>
         </div>
-        <p className="font-['Dancing_Script'] text-xl text-rose-600 sm:text-2xl">
+        <p className="font-elegant text-xl text-rose-600 sm:text-2xl">
           Happy Valentine&apos;s Day, {recipientName}! 💕
         </p>
 
@@ -145,7 +145,7 @@ export default function SweetMessage({
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: "easeOut" }}
-            className="font-['Dancing_Script'] text-xl text-rose-700 sm:text-2xl md:text-3xl"
+            className="font-romantic text-xl text-rose-700 sm:text-2xl md:text-3xl"
           >
             Wait - you&apos;re not just a Valentine... you&apos;ll be my wife and I will be your
             husband!! Isn&apos;t that crazy? 🤭
@@ -165,7 +165,7 @@ export default function SweetMessage({
               ease: [0.34, 1.56, 0.64, 1],
             }}
             style={{ transformOrigin: "center" }}
-            className="font-['Dancing_Script'] text-lg text-rose-600 sm:text-xl md:text-2xl"
+            className="font-casual text-lg text-rose-600 sm:text-xl md:text-2xl"
           >
             And it&apos;s an easy date to remember too 🤔
           </motion.p>
@@ -180,7 +180,7 @@ export default function SweetMessage({
               rotate: [0, -2, 2, 0],
             }}
             transition={{ duration: 0.975, ease: "easeOut" }}
-            className="font-['Caveat'] text-lg font-medium text-rose-600 sm:text-xl md:text-2xl"
+            className="font-note text-lg font-medium text-rose-600 sm:text-xl md:text-2xl"
           >
             P.S. I also want to apologise for spelling your name wrong. I keep writing Gheena or Ghenna. We might want to change your name for the marriage! JK JK 🤣
           </motion.p>
@@ -200,7 +200,7 @@ export default function SweetMessage({
                 transformOrigin: "center",
                 textShadow: "0 0 24px rgba(244, 114, 182, 0.5)",
               }}
-              className="font-['Dancing_Script'] text-xl font-semibold text-rose-700 sm:text-2xl md:text-3xl"
+              className="font-romantic text-xl font-semibold text-rose-700 sm:text-2xl md:text-3xl"
             >
               For a happy marriage and happy life
             </motion.p>
@@ -208,7 +208,7 @@ export default function SweetMessage({
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-              className="font-['Dancing_Script'] text-xl font-semibold text-rose-600 sm:text-2xl md:text-4xl"
+              className="font-elegant text-lg font-semibold text-rose-600 sm:text-xl md:text-2xl"
             >
               Enjoy the day and the rest of our life 😊
             </motion.p>
@@ -219,7 +219,7 @@ export default function SweetMessage({
           <motion.button
             type="button"
             onClick={() => setAcceptedStep((s) => s + 1)}
-            className="mt-2 min-h-[48px] min-w-[120px] rounded-full bg-rose-500 px-6 py-3 font-['Dancing_Script'] text-lg font-semibold text-white shadow-lg transition-colors hover:bg-rose-600 active:bg-rose-700 sm:text-xl"
+            className="mt-2 min-h-[48px] min-w-[120px] rounded-full bg-rose-500 px-6 py-3 font-romantic text-lg font-semibold text-white shadow-lg transition-colors hover:bg-rose-600 active:bg-rose-700 sm:text-xl"
             whileHover={{ scale: 1.05 }}
             {...buttonAnim}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
@@ -268,7 +268,7 @@ export default function SweetMessage({
         }
       >
         <motion.p
-          className="font-['Dancing_Script'] text-2xl font-semibold text-rose-800 sm:text-3xl md:text-4xl"
+          className="font-romantic text-2xl font-semibold text-rose-800 sm:text-3xl md:text-4xl"
           style={{
             textShadow: noCount >= 5 ? "0 0 20px rgba(244, 114, 182, 0.4)" : undefined,
           }}
@@ -282,11 +282,11 @@ export default function SweetMessage({
             animate={{ opacity: 1, scale: 1 }}
             className="flex flex-col items-center gap-1"
           >
-            <span className="font-['Dancing_Script'] text-2xl font-semibold text-rose-600">
+            <span className="font-romantic text-2xl font-semibold text-rose-600">
               {noCount} / 5
             </span>
             <motion.span
-              className="font-['Dancing_Script'] text-base text-rose-500"
+              className="font-casual text-base text-rose-500"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.75, delay: 0.3 }}
@@ -301,7 +301,7 @@ export default function SweetMessage({
             <motion.button
               type="button"
               onClick={onNoClick}
-              className="min-h-[48px] min-w-[88px] rounded-full bg-rose-400 px-6 py-3 font-['Dancing_Script'] text-lg font-semibold text-white shadow-lg transition-colors hover:bg-rose-500 active:bg-rose-600 sm:text-xl"
+              className="min-h-[48px] min-w-[88px] rounded-full bg-rose-400 px-6 py-3 font-romantic text-lg font-semibold text-white shadow-lg transition-colors hover:bg-rose-500 active:bg-rose-600 sm:text-xl"
               whileTap={{ scale: 0.95 }}
             >
               No
@@ -314,7 +314,7 @@ export default function SweetMessage({
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
-              className="min-h-[48px] min-w-[88px] rounded-full bg-rose-600 px-6 py-3 font-['Dancing_Script'] text-lg font-semibold text-white shadow-lg transition-colors hover:bg-rose-700 active:bg-rose-800 sm:text-xl"
+              className="min-h-[48px] min-w-[88px] rounded-full bg-rose-600 px-6 py-3 font-romantic text-lg font-semibold text-white shadow-lg transition-colors hover:bg-rose-700 active:bg-rose-800 sm:text-xl"
               whileTap={{ scale: 0.95 }}
             >
               Yes
