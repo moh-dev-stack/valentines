@@ -1,9 +1,9 @@
 import { useMemo } from "react";
 import { motion } from "framer-motion";
 
-const HEART_COUNT = 28;
-const TOP_BIAS_COUNT = 12;
-const BOTTOM_BIAS_COUNT = 10;
+const HEART_COUNT = 45;
+const TOP_BIAS_COUNT = 18;
+const BOTTOM_BIAS_COUNT = 15;
 const COLORS = ["#f472b6", "#fb7185", "#f43f5e", "#e11d48"];
 
 const TEXT_EXCLUSION = { leftMin: 20, leftMax: 80, topMin: 30, topMax: 75 };
@@ -40,10 +40,10 @@ function Heart({ delay, size, left, top, color }: { delay: number; size: number;
         left: `${left}%`,
         top: `${top}%`,
       }}
-      initial={{ y: 0, opacity: 0.6, rotate: 0 }}
+      initial={{ y: 0, opacity: 0.3, rotate: 0 }}
       animate={{
         y: [0, -12, -22, -12, 0],
-        opacity: [0.6, 0.9, 0.6, 0.8, 0.6],
+        opacity: [0.25, 0.4, 0.25, 0.35, 0.25],
         rotate: [0, 5, -4, 5, 0],
       }}
       transition={{

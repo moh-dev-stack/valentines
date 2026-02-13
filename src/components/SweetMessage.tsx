@@ -133,7 +133,7 @@ export default function SweetMessage({
             Yay! You said yes!
           </p>
           <p className="font-['Caveat'] text-base font-medium text-rose-500 sm:text-lg">
-            (sorry the No button disappears)
+            (sorry the No button disappeared 🙈)
           </p>
         </div>
         <p className="font-['Dancing_Script'] text-xl text-rose-600 sm:text-2xl">
@@ -148,7 +148,7 @@ export default function SweetMessage({
             className="font-['Dancing_Script'] text-xl text-rose-700 sm:text-2xl md:text-3xl"
           >
             Wait - you&apos;re not just a Valentine... you&apos;ll be my wife and I will be your
-            husband!! Isn&apos;t that crazy?
+            husband!! Isn&apos;t that crazy? 🤭
           </motion.p>
         )}
 
@@ -167,7 +167,7 @@ export default function SweetMessage({
             style={{ transformOrigin: "center" }}
             className="font-['Dancing_Script'] text-lg text-rose-600 sm:text-xl md:text-2xl"
           >
-            And it&apos;s an easy date to remember too :D
+            And it&apos;s an easy date to remember too 🤔
           </motion.p>
         )}
 
@@ -182,8 +182,8 @@ export default function SweetMessage({
             transition={{ duration: 0.975, ease: "easeOut" }}
             className="font-['Caveat'] text-lg font-medium text-rose-600 sm:text-xl md:text-2xl"
           >
-            P.S. I also want to apologise for spelling your name wrong - I kept writing Gheena or
-            Ghenaa. We might want to change your name for the marriage! JK JK
+            P.S. I also want to apologise for spelling your name wrong. I keep writing Gheena or
+            Ghenaa. We might want to change your name for the marriage! JK JK 🤣
           </motion.p>
         )}
 
@@ -211,7 +211,7 @@ export default function SweetMessage({
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
               className="font-['Dancing_Script'] text-xl font-semibold text-rose-600 sm:text-2xl md:text-4xl"
             >
-              Enjoy the day and the rest of our life :)
+              Enjoy the day and the rest of our life 😊
             </motion.p>
           </>
         )}
