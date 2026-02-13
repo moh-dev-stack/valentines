@@ -125,15 +125,15 @@ export default function SweetMessage({
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ type: "spring", stiffness: 200, damping: 20 }}
+        transition={{ type: "spring", stiffness: 300, damping: 25 }}
         className="flex max-h-[75dvh] flex-col items-center gap-4 overflow-y-auto overscroll-contain px-4 py-2 text-center sm:px-6"
       >
         <div className="flex flex-col items-center gap-1">
           <p className="font-['Dancing_Script'] text-3xl font-bold text-rose-700 sm:text-4xl md:text-5xl">
             Yay! You said yes!
           </p>
-          <p className="font-['Caveat'] text-base font-medium text-rose-500 sm:text-lg">
-            (sorry the No button disappeared 🙈)
+          <p className="font-['Dancing_Script'] text-base font-normal text-rose-500 sm:text-lg">
+            (sorry the No button disappeared 😉)
           </p>
         </div>
         <p className="font-['Dancing_Script'] text-xl text-rose-600 sm:text-2xl">
