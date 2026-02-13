@@ -133,7 +133,7 @@ export default function SweetMessage({
             Yay! You said yes!
           </p>
           <p className="font-['Dancing_Script'] text-base font-normal text-rose-500 sm:text-lg">
-            (sorry the No button disappeared 😉)
+            (sorry the No button disappeared 🙈)
           </p>
         </div>
         <p className="font-['Dancing_Script'] text-xl text-rose-600 sm:text-2xl">
