@@ -182,8 +182,7 @@ export default function SweetMessage({
             transition={{ duration: 0.975, ease: "easeOut" }}
             className="font-['Caveat'] text-lg font-medium text-rose-600 sm:text-xl md:text-2xl"
           >
-            P.S. I also want to apologise for spelling your name wrong. I keep writing Gheena or
-            Ghenaa. We might want to change your name for the marriage! JK JK 🤣
+            P.S. I also want to apologise for spelling your name wrong. I keep writing Gheena or Ghenna. We might want to change your name for the marriage! JK JK 🤣
           </motion.p>
         )}
 

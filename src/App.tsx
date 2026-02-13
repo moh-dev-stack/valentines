@@ -5,7 +5,7 @@ import InteractiveOverlay from "./components/InteractiveOverlay";
 
 function getRecipientName(): string {
   const params = new URLSearchParams(window.location.search);
-  return params.get("name") ?? "Ghenna";
+  return params.get("name") ?? "Ghenaa";
 }
 
 function App() {
